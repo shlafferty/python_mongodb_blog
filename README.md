@@ -34,7 +34,7 @@ Installation instructions and documentation can be found [here](https://www.getp
 
 ### Installing
 
-* You can simply download a ZIP of the files needed or clone the repository to the directory you would like to work in
+* You can simply download a ZIP of the files or clone the repository to the directory you would like to work in
 ```
 git clone https://github.com/shlafferty/python_mongodb_blog.git
 ```
@@ -48,7 +48,7 @@ git clone https://github.com/shlafferty/python_mongodb_blog.git
 * Run the CreateBlog.py file to create the database of blog posts and users in MongoDB
 
 ### Running the Blog website
-* Navigate to the Blog directory and run the index.py file. This will start the Bottle HTTP server on localhost using port 8082
+* Navigate to the Blog directory and run the *index.py* file. This will start the Bottle HTTP server on localhost using port 8082
 ```
 http://localhost:8082
 ```
@@ -56,7 +56,7 @@ http://localhost:8082
 * The features of the page that have been implemented are creating, editing, and deleting posts. There is no option for creating or altering comments at this time.
 
 ## Running the API
-* Navigate to the API directory and run the index.py file. This will start the Bottle HTTP server on localhost using port 8083
+* Navigate to the API directory and run the *index.py* file. This will start the Bottle HTTP server on localhost using port 8083
 ```
 http://localhost:8083
 ```
