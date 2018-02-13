@@ -38,7 +38,6 @@ a {
 
 #login form {
     display: inline-block;
-    /* margin-left: 10%; */
     padding-bottom: 10%;
     width: 30%;
 }
@@ -76,9 +75,12 @@ a {
 .post .user {    
     margin-top: 0;
     padding: 0 1% 1% 1%;
-    background-color: crimson;
+    background-color: black;
+    color: white;
     font-size: 110%;
     font-weight: 700;
+    border: 5px double turquoise;
+    border-top: none;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -94,7 +96,9 @@ a {
 }
 
 .post-topper {
-    background-color: crimson;
+    background-color: black;
+    border: 5px double turquoise;
+    border-bottom: none;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     text-align: right;
@@ -122,37 +126,42 @@ a {
 
 .delete {
     display: inline-block;
-    padding: 2px 3px;
-    background-color: white;
-    color: red;
+    padding: 2px 6px;
+    background-color: black;
+    color: turquoise;
     font-weight: 900;
     text-decoration: none;
+    border: 2px solid turquoise;
+    border-radius: 12px;
 }
 
 .edit {
     padding: 2px 3px;
-    background-color: white;
-    color: red;
+    background-color: black;
+    color: turquoise;
+    border: 2px solid turquoise;
     border-radius: 5px;
     float: right;
     text-decoration: none;
 }
 
 #editForm, #addForm {
-    background-color: silver;
+    background-color: black;
     margin: 10%;
     text-align: center;
     padding: 1%;
+    color: turquoise;
     border-radius: 10px;
-    border: 3px solid black;
+    border: 3px solid turquoise;
 }
 
 #editForm input, #addForm input {
     padding: 10px 20px;
-    background-color: skyblue;
+    background-color: black;
     font-size: 150%;
     border-radius: 10px;
-    border: 3px solid black;
+    border: 3px solid turquoise;
+    color: white;
     text-align: center;
     cursor: pointer;
 }
